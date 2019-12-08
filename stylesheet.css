@@ -104,7 +104,8 @@ header {
 }
 
 .header-right a:hover {
-  border-bottom: 3px solid black;
+color:#0033cc;
+font-weight :bold;
 }
 
 .lesson-wrapper {
