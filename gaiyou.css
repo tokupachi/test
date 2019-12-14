@@ -15,12 +15,8 @@ a {
 
 .top-wrapper {
   padding: 50px 0 0 0;
-  color: white;
-  background-color:#239b77;
 }
 
-.gaiyou-wrapper{}
- 
 
 header {
   height: 65px;
@@ -46,7 +42,27 @@ header {
   color: black;
 }
 
-.gaiyou{border-bottom:solid 1px black}
+.gaiyou{font-weight:bolder;}
+
+.header-right a:hover {
+color:#0033cc;
+font-weight :bold;
+}
+
+
+.gaiyou-title{  
+  color: white;
+  background-color:#239b77;
+  padding:10px 60px;}
+
+.adress{padding:10px 0 10px 0;
+font-size:18px;}
+
+.adress p{border-bottom:solid 1px #b3aeb5;}
+.adress-top{border-top:solid 1px #b3aeb5;}
+
+
+
 
 .header-right a {
   line-height: 65px;
@@ -56,14 +72,6 @@ header {
   float: left;
   transition: all 0.5s;
 }
-
-.header-right a:hover {
-color:#0033cc;
-font-weight :bold;
-}
-
-
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
