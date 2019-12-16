@@ -49,6 +49,12 @@ color:#0033cc;
 font-weight :bold;
 }
 
+.kaisha{width:300px;
+height:150px;
+    float:right;
+}
+
+.gaiyou-wrapper{}
 
 .gaiyou-title{  
   color: white;
