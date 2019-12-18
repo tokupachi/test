@@ -1,5 +1,7 @@
 body {
   margin: 0;
+body {
+  margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
@@ -19,6 +21,7 @@ a {
   background-size: cover;
   color: white;
   text-align: center;
+    opacity: 0.9
 }
 
 .top-wrapper h1 {
@@ -175,15 +178,23 @@ font-weight :bold;
 }
 
 footer img {
-  width: 125px;
+  width: 400px;
+  height:40px;
+   
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+.footer-right{
+    float:right;
 }
+
+.footer-left{
+    float:left;
+    opacity: 0.8;
+}
+
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+    
 }
