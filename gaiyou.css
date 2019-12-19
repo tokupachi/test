@@ -138,15 +138,22 @@ padding-top:20px;}
 }
 
 footer img {
-  width: 125px;
+  width: 400px;
+  height:40px;
+   
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+.footer-right{
+    float:right;
 }
+
+.footer-left{
+    float:left;
+    opacity: 0.8;
+}
+
 
 footer {
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;   
 }
