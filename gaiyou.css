@@ -90,6 +90,21 @@ padding-top:20px;}
   font-weight: normal;
 }
 
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
 
 .text-contents {
   width: 80%;
