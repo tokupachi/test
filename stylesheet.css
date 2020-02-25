@@ -7,8 +7,12 @@ a {
   text-decoration: none;
 }
 
+
+
+*{box-sizing: border-box;}
+
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -37,13 +41,11 @@ a {
   margin: 20px 0;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
-}
 
 .signup {
   background-color: #239b76;
     box-shadow: 0 7px #1a7940;
+   margin: 0 auto;
 }
 .signup:active {
   position: relative;
@@ -114,7 +116,7 @@ font-weight :bold;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  
   text-align: center;
 }
 
@@ -145,6 +147,8 @@ font-weight :bold;
   width: 100%;
  
 }
+
+.clear{clear:left;}
 
 .text-contents {
   width: 80%;
@@ -202,5 +206,38 @@ footer img {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-    
 }
+
+.chousei{color:white;}
+.aoren{margin: 0 auto;
+text-align:center;}
+
+
+@media (max-width:1000px) {
+  h1{color:red;}
+.lesson
+    {width:100%;
+    margin-bottom:50px;}
+.message{margin-bottom:50px;}
+    .footer-right{width:100%;
+        float:clear;
+    text-align: center;}
+   .footer-left{width:100%;
+        float:clear;
+     text-align: center;
+    }
+}
+
+
+@media (max-width:670px) {
+  h1{ color:green;}
+        .lesson{width:100%;
+    margin-bottom:50px;
+       .footer-right{width:100%;
+        float:clear;
+        text-align: center;}
+       .footer-left{width:100%;
+        float:clear;
+       text-align: center;}
+            .btn signup{width:100%;}
+    }
