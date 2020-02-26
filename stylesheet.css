@@ -17,6 +17,56 @@ a {
   margin: 0 auto;
 }
 
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+.sumaho{display:none;}
+
+
+#input{	display: none;}
+
+/*3本線を作る*/
+.line1{
+	width: 20px;
+	height: 15px;
+	background-color: white;
+	margin: 6px;}
+
+
+.line2,.line3,.line4{
+	width: 20px;
+	height: 3px;
+	background-color: dimgray;
+	margin: 4px;
+}
+
+/*メニューのデザイン*/
+#content{
+	background-color: #239b76;
+	width: 200px;
+	height: 100%;
+	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
+   transition:.3S ease-in-out;
+    opacity: 0.8;
+}
+
+/*チェックが入ったら見せる*/
+
+#input:checked ~ #content{
+	transform: translatex(0px);　/*通常値に戻す*/
+}
+
+
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+
+
+
+
+
+
+
+
+
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);
@@ -68,7 +118,7 @@ a {
 　float:left;
 }
 
-.btn:hover {
+.btn:hover {v
   opacity: 1;
 }
 
@@ -88,6 +138,7 @@ header {
 .logo {
   width: 300px;
   margin-top: 5px;
+  margin-left:10Px;
 }
 
 .header-left {
@@ -215,6 +266,7 @@ footer {
 .aoren{margin: 0 auto;
 text-align:center;}
 
+.mark{border-bottom: 3px solid #eee;}
 
 @media (max-width:1000px) {
   h1{color:red;}
@@ -229,20 +281,25 @@ text-align:center;}
         float:clear;
      text-align: center;
     }
+      .top-wrapper h1{font-size:32px;}
+   .top-wrapper p{font-size:20px;}
 }
 
 
 @media (max-width:670px) {
   h1{ color:green;}
-        .lesson{width:100%;
-    margin-bottom:50px;
-       .footer-right{width:100%;
-        float:clear;
-        text-align: center;}
-       .footer-left{width:100%;
-        float:clear;
-       text-align: center;}
+    
+    
+ .lesson{width:100%;
+     margin-bottom:50px;}
+         footer{text-align: center;
+           width:100%;}
+
             .singup{text-align: center;
             width:5px
             color:red;}
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
     }
