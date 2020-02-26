@@ -41,6 +41,9 @@ a {
   margin: 20px 0;
 }
 
+.btn-wrapper p {
+  margin: 10000px 0;
+}
 
 .signup {
   background-color: #239b76;
@@ -239,5 +242,7 @@ text-align:center;}
        .footer-left{width:100%;
         float:clear;
        text-align: center;}
-            .btn signup{width:100%;}
+            .singup{text-align: center;
+            width:5px
+            color:red;}
     }
