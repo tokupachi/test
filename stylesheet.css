@@ -270,7 +270,7 @@ text-align:center;}
 .mark{border-bottom: 3px solid #eee;}
 
 @media (max-width:1000px) {
-  h1{color:red;}
+
 .lesson
     {width:100%;
     margin-bottom:50px;}
@@ -284,11 +284,17 @@ text-align:center;}
     }
       .top-wrapper h1{font-size:32px;}
    .top-wrapper p{font-size:20px;}
+
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
+    }
 }
 
 
 @media (max-width:670px) {
-  h1{ color:green;}
+
     
     
  .lesson{width:100%;
