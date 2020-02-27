@@ -8,10 +8,54 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+.sumaho{display:none;}
+
+
+#input{	display: none;}
+
+/*3本線を作る*/
+.line1{
+	width: 20px;
+	height: 15px;
+	background-color: white;
+	margin: 6px;}
+
+
+.line2,.line3,.line4{
+	width: 20px;
+	height: 3px;
+	background-color: dimgray;
+	margin: 4px;
+}
+
+/*メニューのデザイン*/
+#content{
+	background-color: #239b76;
+	width: 200px;
+	height: 100%;
+	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
+   transition:.3S ease-in-out;
+    opacity: 0.8;
+    position: 
+}
+
+/*チェックが入ったら見せる*/
+
+#input:checked ~ #content{
+	transform: translatex(0px);　/*通常値に戻す*/
+}
+
+
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+
 
 .top-wrapper {
   padding: 50px 0 0 0;
@@ -30,6 +74,7 @@ header {
 .logo {
   width: 300px;
   margin-top: 5px;
+  margin-left:10Px;
 }
 
 .header-left {
@@ -157,3 +202,46 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;   
 }
+
+@media (max-width:1000px) {
+
+.lesson
+    {width:100%;
+    margin-bottom:50px;}
+.message{margin-bottom:50px;}
+    .footer-right{width:100%;
+        float:clear;
+    text-align: center;}
+   .footer-left{width:100%;
+        float:clear;
+     text-align: center;
+    }
+      .top-wrapper h1{font-size:32px;}
+   .top-wrapper p{font-size:20px;}
+
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
+    }
+}
+
+
+@media (max-width:670px) {
+
+    
+    
+ .lesson{width:100%;
+     margin-bottom:50px;}
+         footer{text-align: center;
+           width:100%;}
+
+            .singup{text-align: center;
+            width:5px
+            color:red;}
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
+    .kaisha{width:20%;}
+    }
