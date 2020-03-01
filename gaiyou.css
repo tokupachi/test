@@ -1,5 +1,5 @@
 body {
-  
+
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 #wrapper {
@@ -12,7 +12,7 @@ a {
 
 .container {
   width: 100%;
-
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ color:#0033cc;
 font-weight :bold;
 }
 
-.kaisha{text-align: center;
+.kaisha{
 max-width: 50%;}
 
 .gaiyou-wrapper{text-align: center;
@@ -136,11 +136,6 @@ padding-top:20px;}
 
 .heading h2 {
   font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 33%;
 }
 
 .lesson-icon {
@@ -256,6 +251,6 @@ footer img   {display: block;
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    footer img { width:90%; }
+    footer img { width:100%; }
    .top-wrapper { width:100%;}
     }
