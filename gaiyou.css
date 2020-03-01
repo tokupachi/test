@@ -1,15 +1,18 @@
 body {
-  margin: 0;
+  
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
-
+#wrapper {
+  width:100%;
+  overflow:hidden;
+}
 a {
   text-decoration: none;
 }
 
 .container {
   width: 100%;
-  padding: 0 15px;
+
   margin: 0 auto;
 }
 
@@ -94,10 +97,11 @@ color:#0033cc;
 font-weight :bold;
 }
 
-.kaisha{width:50px:
-height:250px;}
+.kaisha{text-align: center;
+max-width: 50%;}
 
-.gaiyou-wrapper{text-align: center}
+.gaiyou-wrapper{text-align: center;
+}
 
 .gaiyou-title{  
   color: white;
@@ -105,7 +109,8 @@ height:250px;}
   padding:10px 60px;}
 
 .adress{padding:50px 0 10px 0;
-font-size:18px;}
+font-size:18px;
+text-align: center;}
 
 .adress p{border-bottom:solid 1px #b3aeb5;
 padding-bottom:10px;}
@@ -161,11 +166,7 @@ padding-top:20px;}
   font-weight: normal;
 }
 
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
+
 
 .message {
   padding: 15px 40px;
@@ -181,13 +182,14 @@ padding-top:20px;}
 }
 
 footer img {
-  width: 400px;
+  width: 300px;
   height:40px;
    
 }
 
 .footer-right{
     float:right;
+    
 }
 
 .footer-left{
@@ -198,9 +200,9 @@ footer img {
 
 footer {
   padding-top: 30px;
-  padding-bottom: 20px;   
+  padding-bottom: 2px;
+    display: block;
 }
-
 .ggmap {
 position: relative;
 padding-bottom: 56.25%;
@@ -245,25 +247,15 @@ height: 100%;
 footer img   {display: block;
         }
 }
-
-
 @media (max-width:670px) {
+ 
 
-    
-    
- .lesson{width:100%;
-     margin-bottom:50px;}
 .footer-left{margin:auto;
-           width:100%; 
-    }
-
-    .singup{text-align: center;}
-  
+           width:100%; }
   .top-wrapper h1{font-size:24px;}
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    footer img { width:100%; }
-   .top-wrapper { width:100%;
-        }
+    footer img { width:90%; }
+   .top-wrapper { width:100%;}
     }
