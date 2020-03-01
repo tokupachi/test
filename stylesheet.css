@@ -57,18 +57,13 @@ a {
 .top-wrapper p {
   opacity: 0.7;
 }
-
 .btn-wrapper {
   text-align: center;
-  margin: 20px 0;
   margin: 25px 0;
 }
-
 .btn-wrapper p {
-  margin: 10000px 0;
   margin: 10px 0;
 }
-
 .signup {
   background-color: #239b76;
     box-shadow: 0 7px #1a7940;
@@ -189,8 +184,12 @@ font-weight :bold;
   position: relative;
   top: 7px;
   box-shadow: none;
-   
+
 }
+
+
+
+
 footer img {
   width: 300px;
   height:40px;
@@ -213,6 +212,7 @@ footer {
 .aoren{margin: 0 auto;
 text-align:center;}
 .mark{border-bottom: 3px solid #eee;}
+.arrange{text-align: center;}
 @media (max-width:900px) {
 .lesson
     {width:100%;
@@ -232,19 +232,29 @@ text-align:center;}
     .sumaho{display:block;}
     .header-right{display:none;}
     }
+     .top-wrapper {
+
+       width:100%;
+  background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);}
+      footer img   {display: block;
+        }
 }
+
+
 @media (max-width:670px) {
     
-    
+
  .lesson{width:100%;
      margin-bottom:50px;}
         .footer-left{margin:auto;
            width:100%;
 
+.footer-left{margin:auto;
+           width:100%; 
     }
 
-            .singup{text-align: center;
 .singup{text-align: center;
+    .singup{text-align: center;}
 
   .top-wrapper h1{font-size:24px;}
    .top-wrapper p{font-size:14px;}
@@ -256,7 +266,11 @@ text-align:center;}
    .top-wrapper {
        display: none;
        width:100%;
+    footer img { width:100%; }
+   .top-wrapper { width:100%;
   background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);}
       footer img   {display: block;
+
+.lesson-icon img{width:100%}
         }
     }
