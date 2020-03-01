@@ -5,11 +5,7 @@ body {
 a {
   text-decoration: none;
 }
-
-
-
 *{box-sizing: border-box;}
-
 .container {
   width: 100%;
   padding: 0 15px;
@@ -26,7 +22,10 @@ a {
 	margin: 6px;}
 .line2,.line3,.line4{
 	width: 20px;
-@@ -41,91 +37,30 @@
+	height: 3px;
+	background-color: dimgray;
+	margin: 4px;
+}
 /*メニューのデザイン*/
 #content{
 	background-color: #239b76;
@@ -42,16 +41,6 @@ a {
 	transform: translatex(0px);　/*通常値に戻す*/
 }
 /*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
-
-
-
-
-
-
-
-
-
-
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);
@@ -60,27 +49,21 @@ a {
   text-align: center;
     opacity: 0.9;
 }
-
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
-  padding: 50px 0 0 0;
 }
-
 .top-wrapper p {
   opacity: 0.7;
 }
-
 .btn-wrapper {
   text-align: center;
   margin: 25px 0;
 }
-
 .btn-wrapper p {
   margin: 10px 0;
 }
-
 .signup {
   background-color: #239b76;
     box-shadow: 0 7px #1a7940;
@@ -90,10 +73,8 @@ a {
   position: relative;
   top: 7px;
   box-shadow: none;
-
+   
 }
-
-
 .btn {
   padding: 8px 240px;
   color: white;
@@ -103,15 +84,12 @@ a {
   text-align: center;
 　float:left;
 }
-
 .btn:hover {v
   opacity: 1;
 }
-
 .fa {
   margin-right: 5px;
 }
-
 header {
   height: 65px;
   width: 100%;
@@ -133,7 +111,6 @@ header {
   margin-right: -25px;
   color: black;
 }
-
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
@@ -142,50 +119,17 @@ header {
   float: left;
   transition: all 0.5s;
 }
-.gaiyou{font-weight:bolder;}
-
 .header-right a:hover {
 color:#0033cc;
 font-weight :bold;
 }
-
 .lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-
+  
   text-align: center;
-.kaisha{width:200px;
-height:100px;
-    float:right;
-}
-
-.gaiyou-wrapper{}
-
-.gaiyou-title{  
-  color: white;
-  background-color:#239b77;
-  padding:10px 60px;}
-
-.adress{padding:50px 0 10px 0;
-font-size:18px;}
-
-.adress p{border-bottom:solid 1px #b3aeb5;
-padding-bottom:10px;}
-.adress-top{border-top:solid 1px #b3aeb5;
-padding-top:20px;}
-
-
-
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: black;
-  display: block;
-  float: left;
-  transition: all 0.5s;
 }
 .heading {
   padding-top: 80px;
@@ -200,38 +144,28 @@ padding-top:20px;}
   width: 33%;
     opacity: 0.7;
 }
-
 .lesson-icon {
   position: relative;
-
+    　
 }
-
 .lesson-icon p {
   position: absolute;
   top: 1%;
-  top: 44%;
   width: 100%;
-
-  color: white;
+ 
 }
-
 .clear{clear:left;}
-
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
-  color: #b3aeb5;
 }
-
 .heading h3 {
   font-weight: normal;
 }
-
 .message-wrapper {
   border-bottom: 10px solid #eee;
-  border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -243,45 +177,33 @@ padding-top:20px;}
   margin-right:100px;
   margin-left:100px;
 }
-
 .message:hover{
      color:orangered;
 }
-
 .message:active {
   position: relative;
   top: 7px;
   box-shadow: none;
-
+   
 }
-
-
-
-
 footer img {
   width: 300px;
-  width: 400px;
   height:40px;
-
+   
 }
-
 .footer-right{
     float:right;
-
+    
 }
-
 .footer-left{
     float:left;
     opacity: 0.8;
 }
-
 footer {
   padding-top: 30px;
   padding-bottom: 2px;
     display: block;
-  padding-bottom: 20px;   
 }
-
 .chousei{color:white;}
 .aoren{margin: 0 auto;
 text-align:center;}
@@ -291,23 +213,6 @@ text-align:center;}
 
 .arrange{text-align: center;}
 
-.ggmap {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
-}
-
-.ggmap iframe,
-.ggmap object,
-.ggmap embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 95%;
-height: 100%;
-}
 
 @media (max-width:900px) {
 
@@ -328,31 +233,5 @@ height: 100%;
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-     .top-wrapper {
-
-       width:100%;
-  background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);}
-      footer img   {display: block;
-footer img   {display: block;
-        }
-}
-
-@media (max-width:670px) {
-    
-    
- .lesson{width:100%;
-     margin-bottom:50px;}
-.footer-left{margin:auto;
-           width:100%; 
     }
-    .singup{text-align: center;}
-  
-  .top-wrapper h1{font-size:24px;}
-   .top-wrapper p{font-size:14px;}
-    .sumaho{display:block;}
-    .header-right{display:none;}
-    footer img { width:100%; }
-   .top-wrapper { width:100%;
-  background-image: url(https://raw.githubusercontent.com/tokupachi/test/master/image1.JPG);}
-
-.lesson-icon img{width:100%}
+}
