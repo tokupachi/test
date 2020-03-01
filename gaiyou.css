@@ -1,256 +1,97 @@
-body {
-
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-}
-#wrapper {
-  width:100%;
-  overflow:hidden;
-}
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
-/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
-
-.sumaho{display:none;}
-
-
-#input{	display: none;}
-
-/*3本線を作る*/
-.line1{
-	width: 20px;
-	height: 15px;
-	background-color: white;
-	margin: 6px;}
-
-
-.line2,.line3,.line4{
-	width: 20px;
-	height: 3px;
-	background-color: dimgray;
-	margin: 4px;
-}
-
-/*メニューのデザイン*/
-#content{
-	background-color: #239b76;
-	width: 200px;
-	height: 100%;
-	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
-   transition:.3S ease-in-out;
-    opacity: 0.8;
-    position: 
-}
-
-/*チェックが入ったら見せる*/
-
-#input:checked ~ #content{
-	transform: translatex(0px);　/*通常値に戻す*/
-}
-
-
-/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
-
-
-
-.top-wrapper {
-  padding: 50px 0 0 0;
-}
-
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 300px;
-  margin-top: 5px;
-  margin-left:10Px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-  color: black;
-}
-
-.gaiyou{font-weight:bolder;}
-
-.header-right a:hover {
-color:#0033cc;
-font-weight :bold;
-}
-
-.kaisha{
-max-width: 50%;}
-
-.gaiyou-wrapper{text-align: center;
-}
-
-.gaiyou-title{  
-  color: white;
-  background-color:#239b77;
-  padding:10px 60px;}
-
-.adress{padding:50px 0 10px 0;
-font-size:18px;
-text-align: center;}
-
-.adress p{border-bottom:solid 1px #b3aeb5;
-padding-bottom:10px;}
-.adress-top{border-top:solid 1px #b3aeb5;
-padding-top:20px;}
-
-
-
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: black;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 300px;
-  height:40px;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-}
-
-.footer-right{
-    float:right;
     
-}
+    <title>aotech</title>
+    <link rel="stylesheet" href="gaiyou.css">
+   <link rel="shortcut icon" href="https://raw.githubusercontent.com/tokupachi/test/master/303.274%E7%B7%91aoba%202.png">
+  </head>
+  <body>
+      <div id="wrapper">
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://raw.githubusercontent.com/tokupachi/test/master/a.png">
+        </div>
+       <div class="header-right">
+        　<a href="index.html">HOME</a> 
+          <a href="gaiyou.html">会社概要</a>
+          <a href="jigyou.html">事業内容</a>
+          <a href="saiyou.html">採用</a>
+        </div>
+      </div>
+        <div class="sumaho">
+        <div id="hamburg">
+      <input id="input" type="checkbox"> 
+      <label id="label1" for="input"><div class="line1"></div><div class="line2"></div><div class="line3"></div><div class="line4"></div></label>
+    <div id="content">  
+          
+      
+        
+     <ul class="list">
+         　
+        <li><a href="gaiyou.html"><i class="fas fa-home"></i> 会社概要</a>
+        
+            <ul>所在地等</ul>
+        
+        </li>
+        <li><a href="jigyou.html">事業内容</a>
+          <ul>施行例等</ul>
+        </li>
+        <li><a href="saiyou.html">採用</a>
+     <ul>募集要項</ul>
+        </li>
+      </ul>
+     </div>
+  </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+     <h2 class="gaiyou-title">会社概要</h2>
+         <div class="container">
+<img class="kaisha" src="https://raw.githubusercontent.com/tokupachi/test/master/ddd.png">
+  </div>
+    
+   <div class="container">  </div>          
+<div class="gaiyou-wrapper">
+<a>マンション・アパートの内装工事、室内清掃、物件外観清掃、植栽剪定、外構工事</a>
+<p>水回りトラブル対応、鍵交換等の維持管理業務について多岐の業務実施の他、業務用エアコン</p>
+<a>浄化槽など各種取扱をおこなっております。</a>
 
-.footer-left{
-    float:left;
-    opacity: 0.8;
-}
-
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 2px;
-    display: block;
-}
-.ggmap {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
-}
- 
-.ggmap iframe,
-.ggmap object,
-.ggmap embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 95%;
-height: 100%;
-}
-
-@media (max-width:900px) {
-
-.lesson
-    {width:100%;
-    margin-bottom:50px;}
-.message{margin-bottom:50px;}
-    .footer-right{width:100%;
-        float:clear;
-    text-align: center;}
-   .footer-left{width:100%;
-        float:clear;
-     text-align: center;
-    }
-      .top-wrapper h1{font-size:32px;}
-   .top-wrapper p{font-size:20px;}
-
-  .top-wrapper h1{font-size:24px;}
-   .top-wrapper p{font-size:14px;}
-    .sumaho{display:block;}
-    .header-right{display:none;}
-     .top-wrapper {
-       
-       width:100%;
-footer img   {display: block;
-        }
-}
-@media (max-width:670px) {
- 
-
-.footer-left{margin:auto;
-           width:100%; }
-  .top-wrapper h1{font-size:24px;}
-   .top-wrapper p{font-size:14px;}
-    .sumaho{display:block;}
-    .header-right{display:none;}
-    footer img { width:100%; }
-   .top-wrapper { width:100%;}
-    }
+<div class="adress">
+    <b><p class="adress-top">株式会社 アオバテクノサービス</p></b>
+     <b><p>代表取締役　戸田貴志</p></b>
+<p>創業年月 1986年（昭和61年）</p>
+<p>資本金　1000万円</p>
+<p>取引銀行　こども銀行</p>
+<p>雇用者数　約40人(パートアルバイト含)</p>
+<p>会社住所</p>
+<p>〒721-0915</p>
+<p>広島県福山市伊勢丘３丁目１３番２４号</p>
+<p>電話（０８４）９４３ー８３３５</p>
+<p>FAX（０８４）９４３ー８４８３</p>
+    <p>登録団体 福山商工会議所 </p>
+    <div class="ggmap">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3826.1989152417405!2d133.418920789946!3d34.505681826230465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc10531a08bb8c05f!2z77yI5qCq77yJ44Ki44Kq44OQ44OG44Kv44OO44K144O844OT44K5!5e0!3m2!1sja!2sjp!4v1576422680001!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>
+</div>
+    
+      </div>
+<footer>
+      <div class="container">
+<div class="footer-left">
+ <p><a href="http://www.fukuyama.or.jp/"><img src="https://raw.githubusercontent.com/tokupachi/test/master/fcci.gif"  border="0"></a></p>
+</div>
+          
+<div class="footer-right">
+  <p><a href="http://www.fukuyama.or.jp/yeg/"><img src="https://raw.githubusercontent.com/tokupachi/test/master/yeg.gif"  border="0"></a></p>
+</div>
+     </div>
+    </footer>
+   </div>
+  </body>
+</html>
