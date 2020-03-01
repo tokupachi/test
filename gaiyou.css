@@ -1,18 +1,285 @@
 body {
-
+  margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
-#wrapper {
-  width:100%;
-  overflow:hidden;
-}
+*{box-sizing: border-box;}
 a {
   text-decoration: none;
 }
 
 .container {
   width: 100%;
-  padding: 0 10px;
+
+  margin: 0 auto;
+}
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0px;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#wrapper {
+  width:100%;
+  overflow:hidden;
+}
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+.sumaho{display:none;}
+
+
+#input{	display: none;}
+
+/*3本線を作る*/
+.line1{
+	width: 20px;
+	height: 15px;
+	background-color: white;
+	margin: 6px;}
+
+
+.line2,.line3,.line4{
+	width: 20px;
+	height: 3px;
+	background-color: dimgray;
+	margin: 4px;
+}
+
+/*メニューのデザイン*/
+#content{
+	background-color: #239b76;
+	width: 200px;
+	height: 100%;
+	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
+   transition:.3S ease-in-out;
+    opacity: 0.8;
+    position: 
+}
+
+/*チェックが入ったら見せる*/
+
+#input:checked ~ #content{
+	transform: translatex(0px);　/*通常値に戻す*/
+}
+
+
+/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
+
+
+
+.top-wrapper {
+  padding: 50px 0 0 0;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 5px;
+  margin-left:10Px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  color: black;
+}
+
+.gaiyou{font-weight:bolder;}
+
+.header-right a:hover {
+color:#0033cc;
+font-weight :bold;
+}
+
+.kaisha{width:300px;
+height:150px;
+    float:right;
+}
+
+.gaiyou-wrapper{}
+
+.gaiyou-title{  
+  color: white;
+  background-color:#239b77;
+  padding:10px 60px;}
+
+.adress{padding:50px 0 10px 0;
+font-size:18px;}
+
+.adress p{border-bottom:solid 1px #b3aeb5;
+padding-bottom:10px;}
+.adress-top{border-top:solid 1px #b3aeb5;
+padding-top:20px;}
+
+
+
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 300px;
+  height:40px;
+   display:block;
+}
+
+.footer-right{
+    float:right;
+}
+
+.footer-left{
+    float:left;
+    opacity: 0.8;
+}
+
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px; 
+    display:block;
+}
+
+@media (max-width:1000px) {
+
+.lesson
+    {width:100%;
+    margin-bottom:50px;}
+.message{margin-bottom:50px;}
+    .footer-right{width:100%;
+        float:clear;
+    text-align: center;}
+   .footer-left{width:100%;
+        float:clear;
+     text-align: center;
+    }
+      .top-wrapper h1{font-size:32px;}
+   .top-wrapper p{font-size:20px;}
+
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
+    }
+}
+
+
+@media (max-width:670px) {
+
+    
+    
+ .lesson{width:100%;
+     margin-bottom:50px;}
+         footer{text-align: center;
+           width:100%;}
+
+            .singup{text-align: center;
+            width:5px
+            color:red;}
+  .top-wrapper h1{font-size:24px;}
+   .top-wrapper p{font-size:14px;}
+    .sumaho{display:block;}
+    .header-right{display:none;}
+    .kaisha{width:50%;
+    text-align: center;
+    }
+    }body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -98,19 +365,18 @@ font-weight :bold;
 }
 
 .kaisha{
-max-width: 50%;}
-
-.gaiyou-wrapper{text-align: center;
+max-width: 50%;
 }
+
+.gaiyou-wrapper{}
 
 .gaiyou-title{  
   color: white;
   background-color:#239b77;
-  padding:10px 20px;}
+  padding:10px 60px;}
 
 .adress{padding:50px 0 10px 0;
-font-size:18px;
-text-align: center;}
+font-size:18px;}
 
 .adress p{border-bottom:solid 1px #b3aeb5;
 padding-bottom:10px;}
@@ -138,6 +404,11 @@ padding-top:20px;}
   font-weight: normal;
 }
 
+.lesson {
+  float: left;
+  width: 33%;
+}
+
 .lesson-icon {
   position: relative;
 }
@@ -161,7 +432,11 @@ padding-top:20px;}
   font-weight: normal;
 }
 
-
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
 
 .message {
   padding: 15px 40px;
@@ -179,7 +454,7 @@ padding-top:20px;}
 footer img {
   width: 300px;
   height:40px;
-   
+   display: block;
 }
 
 .footer-right{
@@ -198,25 +473,7 @@ footer {
   padding-bottom: 2px;
     display: block;
 }
-.ggmap {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
-}
- 
-.ggmap iframe,
-.ggmap object,
-.ggmap embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 95%;
-height: 100%;
-}
-
-@media (max-width:900px) {
+@media (max-width:1000px) {
 
 .lesson
     {width:100%;
@@ -236,21 +493,18 @@ height: 100%;
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-     .top-wrapper {
-       
-       width:100%;
-footer img   {display: block;
-        }
+    }
 }
-@media (max-width:670px) {
- 
 
+
+@media (max-width:670px) {
 .footer-left{margin:auto;
            width:100%; }
   .top-wrapper h1{font-size:24px;}
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    footer img { width:100%; }
+    footer img{display: block;
+        width:100%;}
    .top-wrapper { width:100%;}
     }
