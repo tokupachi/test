@@ -94,12 +94,10 @@ color:#0033cc;
 font-weight :bold;
 }
 
-.kaisha{width:300px;
-height:150px;
-    float:right;
-}
+.kaisha{width:50px:
+height:250px;}
 
-.gaiyou-wrapper{}
+.gaiyou-wrapper{text-align: center}
 
 .gaiyou-title{  
   color: white;
@@ -203,7 +201,25 @@ footer {
   padding-bottom: 20px;   
 }
 
-@media (max-width:1000px) {
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 95%;
+height: 100%;
+}
+
+@media (max-width:900px) {
 
 .lesson
     {width:100%;
@@ -223,7 +239,11 @@ footer {
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    }
+     .top-wrapper {
+       
+       width:100%;
+footer img   {display: block;
+        }
 }
 
 
@@ -233,15 +253,17 @@ footer {
     
  .lesson{width:100%;
      margin-bottom:50px;}
-         footer{text-align: center;
-           width:100%;}
+.footer-left{margin:auto;
+           width:100%; 
+    }
 
-            .singup{text-align: center;
-            width:5px
-            color:red;}
+    .singup{text-align: center;}
+  
   .top-wrapper h1{font-size:24px;}
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    .kaisha{width:20%;}
+    footer img { width:100%; }
+   .top-wrapper { width:100%;
+        }
     }
