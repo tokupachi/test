@@ -409,7 +409,23 @@ text-align:center;}
 
 
 .arrange{text-align: center;}
-
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0px;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 95%;
+height: 100%;
+}
 
 @media (max-width:900px) {
 
