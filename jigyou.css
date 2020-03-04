@@ -139,6 +139,8 @@ padding-top:20px;}
   box-shadow: none;
 }
 
+.container img{width:75%;}
+
 footer img {
   width: 300px;
   height:40px;
