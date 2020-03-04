@@ -17,10 +17,13 @@ a {
 .top-wrapper {
   padding: 50px 0 0 0;
 }
+.kaisha{width:300px;
+height:150px;
 
+}
 
 header {
-  height: 65px;
+  height: 6500px;
   width: 100%
   background-color: rgba(255, 255, 255, 1);
   position :fixed;
@@ -30,7 +33,7 @@ header {
 
 .logo {
   width: 300px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left:25Px;
 }
 .header-left {
@@ -51,22 +54,31 @@ font-weight :bold;
 }
 
 
-.gaiyou-wrapper{}
+.gaiyou{font-weight:bolder;}
 
-.gaiyou-title{  
-  color:white;
-  background-color:#239b77;
-  padding:10px 60px;
-    text-align: left;
+.header-right a:hover {
+color:#0033cc;
+font-weight :bold;
 }
 
-.adress{padding:50px 0 10px 0;
-font-size:18px;}
 
-.adress p{border-bottom:solid 1px #b3aeb5;
-padding-bottom:10px;}
-.adress-top{border-top:solid 1px #b3aeb5;
-padding-top:20px;}
+.gaiyou-title{  
+  color: white;
+  background-color:#239b77;
+  padding:10px 60px;}
+
+.adress{padding:50px 0 10px 0;
+font-size:18px;
+color:black;}
+
+.adress p{border-bottom:solid 1px black;
+padding-bottom:10px;
+color:black;}
+
+
+.adress-top{border-top:solid 1px black;
+padding-top:20px;
+color:black;}
 
 
 
@@ -101,12 +113,6 @@ padding-top:20px;}
   position: relative;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
 
 .text-contents {
   width: 80%;
@@ -138,8 +144,6 @@ padding-top:20px;}
   top: 7px;
   box-shadow: none;
 }
-
-.jigyou-wrapper img{width:75%;}
 
 footer img {
   width: 300px;
@@ -217,9 +221,9 @@ footer {
 
 .top-wrapper {
   padding: 80px 0 10px 0;
-  background-size: cover;
-  color: white;
-  text-align: center;
+  
+  color: black;
+  text-align: left;
     opacity: 0.9;
 }
 
@@ -255,23 +259,6 @@ footer {
 }
 
 
-.btn {
-  padding: 8px 240px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 20px;
-  text-align: center;
-　float:left;
-}
-
-.btn:hover {v
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
 
 header {
   height: 65px;
@@ -282,11 +269,6 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 300px;
-  margin-top: 5px;
-  margin-left:10Px;
-}
 
 .header-left {
   float: left;
@@ -414,7 +396,7 @@ footer {
     display: block;
 }
 
-.chousei{color:white;}
+
 .aoren{margin: 0 auto;
 text-align:center;}
 
@@ -422,7 +404,23 @@ text-align:center;}
 
 
 .arrange{text-align: center;}
-
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0px;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 95%;
+height: 100%;
+}
 
 @media (max-width:900px) {
 
@@ -470,7 +468,7 @@ text-align:center;}
     .header-right{display:none;}
     footer img { width:100%; }
    .top-wrapper { width:100%;
-
+.kaisha{max-width: 5px;}
 .lesson-icon img{width:100%}
         }
     }
