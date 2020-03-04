@@ -6,6 +6,7 @@ body {
 a {
   text-decoration: none;
 }
+*{box-sizing: border-box;}
 
 .container {
   width: 100%;
@@ -20,7 +21,7 @@ a {
 
 header {
   height: 65px;
-  width: 100%;
+  width: 100%
   background-color: rgba(255, 255, 255, 1);
   position :fixed;
   top: 0;
@@ -49,17 +50,15 @@ color:#0033cc;
 font-weight :bold;
 }
 
-.kaisha{width:300px;
-height:150px;
-    float:right;
-}
 
 .gaiyou-wrapper{}
 
 .gaiyou-title{  
-  color: white;
+  color:white;
   background-color:#239b77;
-  padding:10px 60px;}
+  padding:10px 60px;
+    text-align: left;
+}
 
 .adress{padding:50px 0 10px 0;
 font-size:18px;}
@@ -90,6 +89,9 @@ padding-top:20px;}
   font-weight: normal;
 }
 
+.leo21{text-align: left;}
+.gazou{width:90%;}
+
 .lesson {
   float: left;
   width: 33%;
@@ -103,7 +105,7 @@ padding-top:20px;}
   position: absolute;
   top: 44%;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 .text-contents {
@@ -120,7 +122,7 @@ padding-top:20px;}
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
+  padding-bottom: 8px;
   text-align: center;
 }
 
@@ -137,14 +139,17 @@ padding-top:20px;}
   box-shadow: none;
 }
 
+.container img{width:75%;}
+
 footer img {
-  width: 400px;
+  width: 300px;
   height:40px;
    
 }
 
 .footer-right{
     float:right;
+    
 }
 
 .footer-left{
@@ -155,7 +160,8 @@ footer img {
 
 footer {
   padding-top: 30px;
-  padding-bottom: 20px;   
+  padding-bottom: 2px;
+    display: block;
 }
 
 /*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
@@ -201,7 +207,208 @@ footer {
 /*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
 
 
-@media (max-width:1000px) {
+
+
+
+
+
+
+
+
+.top-wrapper {
+  padding: 80px 0 10px 0;
+  background-size: cover;
+  color: blacck;
+  text-align: left;
+    opacity: 0.9;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+    box-shadow: 0 7px #1a7940;
+   margin: 0 auto;
+}
+.signup:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+   
+}
+
+
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 5px;
+  margin-left:10Px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  color: black;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+color:#0033cc;
+font-weight :bold;
+}
+
+.lesson-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+    opacity: 0.7;
+}
+
+.lesson-icon {
+  position: relative;
+    　
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 1%;
+  width: 100%;
+ 
+}
+
+.clear{clear:left;}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 10px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  margin-right:100px;
+  margin-left:100px;
+}
+
+.message:hover{
+     color:orangered;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+   
+}
+
+
+
+
+footer img {
+  width: 300px;
+  height:40px;
+   
+}
+
+.footer-right{
+    float:right;
+    
+}
+
+.footer-left{
+    float:left;
+    opacity: 0.8;
+}
+
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 2px;
+    display: block;
+}
+
+.aoren{margin: 0 auto;
+text-align:center;}
+
+.mark{border-bottom: 3px solid #eee;}
+
+
+.arrange{text-align: center;}
+
+
+@media (max-width:900px) {
 
 .lesson
     {width:100%;
@@ -221,7 +428,11 @@ footer {
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
-    }
+     .top-wrapper {
+       
+       width:100%;
+ footer img   {display: block;
+        }
 }
 
 
@@ -231,14 +442,19 @@ footer {
     
  .lesson{width:100%;
      margin-bottom:50px;}
-         footer{text-align: center;
-           width:100%;}
+.footer-left{margin:auto;
+           width:100%; 
+    }
 
-            .singup{text-align: center;
-            width:5px
-            color:red;}
+    .singup{text-align: center;}
+  
   .top-wrapper h1{font-size:24px;}
    .top-wrapper p{font-size:14px;}
     .sumaho{display:block;}
     .header-right{display:none;}
+    footer img { width:100%; }
+   .top-wrapper { width:100%;
+
+.lesson-icon img{width:100%}
+        }
     }
