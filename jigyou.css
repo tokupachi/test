@@ -1,476 +1,102 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-*{box-sizing: border-box;}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 50px 0 0 0;
-}
-
-
-header {
-  height: 65px;
-  width: 100%
-  background-color: rgba(255, 255, 255, 1);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 300px;
-  margin-top: 5px;
-  margin-left:25Px;
-}
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-  color: black;
-}
-
-.gaiyou{font-weight:bolder;}
-
-.header-right a:hover {
-color:#0033cc;
-font-weight :bold;
-}
-
-
-.gaiyou-wrapper{}
-
-.gaiyou-title{  
-  color:white;
-  background-color:#239b77;
-  padding:10px 60px;
-    text-align: left;
-}
-
-.adress{padding:50px 0 10px 0;
-font-size:18px;}
-
-.adress p{border-bottom:solid 1px #b3aeb5;
-padding-bottom:10px;}
-.adress-top{border-top:solid 1px #b3aeb5;
-padding-top:20px;}
-
-
-
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: black;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.leo21{text-align: left;}
-.gazou{width:90%;}
-
-.lesson {
-  float: left;
-  width: 33%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 8px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-.container img{width:75%;}
-
-footer img {
-  width: 300px;
-  height:40px;
-   
-}
-
-.footer-right{
-    float:right;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-}
-
-.footer-left{
-    float:left;
-    opacity: 0.8;
-}
-
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 2px;
-    display: block;
-}
-
-/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
-
-.sumaho{display:none;}
-
-
-#input{	display: none;}
-
-/*3本線を作る*/
-.line1{
-	width: 20px;
-	height: 15px;
-	background-color: white;
-	margin: 6px;}
-
-
-.line2,.line3,.line4{
-	width: 20px;
-	height: 3px;
-	background-color: dimgray;
-	margin: 4px;
-}
-
-/*メニューのデザイン*/
-#content{
-	background-color: #239b76;
-	width: 200px;
-	height: 100%;
-	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
-   transition:.3S ease-in-out;
-    opacity: 0.8;
-    position: 
-}
-
-/*チェックが入ったら見せる*/
-
-#input:checked ~ #content{
-	transform: translatex(0px);　/*通常値に戻す*/
-}
-
-
-/*!!!!!!!!!!ハンバガー!!!!!!!!!!!!!!ハンバガー!!!!!ハンバガー!!!!!*/
-
-
-
-
-
-
-
-
-
-
-.top-wrapper {
-  padding: 80px 0 10px 0;
-  background-size: cover;
-  color: white;
-  text-align: center;
-    opacity: 0.9;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 25px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-    box-shadow: 0 7px #1a7940;
-   margin: 0 auto;
-}
-.signup:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-   
-}
-
-
-.btn {
-  padding: 8px 240px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 20px;
-  text-align: center;
-　float:left;
-}
-
-.btn:hover {v
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 300px;
-  margin-top: 5px;
-  margin-left:10Px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-  color: black;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: black;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-color:#0033cc;
-font-weight :bold;
-}
-
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 33%;
-    opacity: 0.7;
-}
-
-.lesson-icon {
-  position: relative;
-    　
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 1%;
-  width: 100%;
- 
-}
-
-.clear{clear:left;}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 10px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-  margin-right:100px;
-  margin-left:100px;
-}
-
-.message:hover{
-     color:orangered;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-   
-}
-
-
-
-
-footer img {
-  width: 300px;
-  height:40px;
-   
-}
-
-.footer-right{
-    float:right;
     
-}
+    <title>aotech</title>
+    <link rel="stylesheet" href="jigyou.css">
+   <link rel="shortcut icon" href="https://raw.githubusercontent.com/tokupachi/test/master/303.274%E7%B7%91aoba%202.png">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://raw.githubusercontent.com/tokupachi/test/master/a.png">
+        </div>
+       <div class="header-right">
+        　<a href="index.html">HOME</a> 
+          <a href="gaiyou.html">会社概要</a>
+          <a href="jigyou">事業内容</a>
+          <a href="saiyou">採用</a>
+        </div>
+      </div>
+            <div class="sumaho">
+        <div id="hamburg">
+      <input id="input" type="checkbox"> 
+      <label id="label1" for="input"><div class="line1"></div><div class="line2"></div><div class="line3"></div><div class="line4"></div></label>
+    <div id="content">  
+          
+      
+        
+     <ul class="list">
+         　
+        <li><a href="gaiyou.html"><i class="fas fa-home"></i> 会社概要</a>
+        
+            <ul>所在地等</ul>
+        
+        </li>
+        <li><a href="jigyou.html">事業内容</a>
+          <ul>施行例等</ul>
+        </li>
+        <li><a href="saiyou.html">採用</a>
+     <ul>募集要項</ul>
+        </li>
+      </ul>
+     </div>
+  </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+     <h2 class="gaiyou-title">事業内容</h2>
+    </div>
 
-.footer-left{
-    float:left;
-    opacity: 0.8;
-}
-
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 2px;
-    display: block;
-}
-
-.chousei{color:white;}
-.aoren{margin: 0 auto;
-text-align:center;}
-
-.mark{border-bottom: 3px solid #eee;}
-
-
-.arrange{text-align: center;}
-
-
-@media (max-width:900px) {
-
-.lesson
-    {width:100%;
-    margin-bottom:50px;}
-.message{margin-bottom:50px;}
-    .footer-right{width:100%;
-        float:clear;
-    text-align: center;}
-   .footer-left{width:100%;
-        float:clear;
-     text-align: center;
-    }
-      .top-wrapper h1{font-size:32px;}
-   .top-wrapper p{font-size:20px;}
-
-  .top-wrapper h1{font-size:24px;}
-   .top-wrapper p{font-size:14px;}
-    .sumaho{display:block;}
-    .header-right{display:none;}
-     .top-wrapper {
+<div class="jigyou-wrapper">
        
-       width:100%;
- footer img   {display: block;
-        }
-}
+ <div class="container">          
+
+  <div class="leo21">
+  <h2>アパート管理・クリーニング</h2>   
+      <p>大手不動産管理センター様からの依頼対応にて作業を行っています。</p>
+      <p>入居前の室内点検（抗菌等の作業）から入居中、退去後まで弊社にてサポートを行っており</p>
+      <p>鍵交換、エアコン清掃、水漏れメンテナンス、照明交換、絨毯張替、受水槽点検などなど、住宅に関わる大多数の設備対応を行っているだけなく、福山市〜竹原市まで幅広いエリアを受注しています。</p>
+      <p>また上記清掃スキルを活かし、福山市を中心とする法人様の事務所を清掃させて頂いております。</p>
+    <img src="https://raw.githubusercontent.com/tokupachi/test/master/lpc.png">
+  </div>
+  <div class="steal">
+  <h2>JFE福山様での構内空調設備のメンテナンス業務</h2>   
+  <p>業務用エアコン、ルームエアコンの取付け及び修理点検作業を行っています。</p>
+  <p>業務用エアコンは容量も価格も大きく、より専門的な補修作業が必要となっており
+ 　故障診断やプリント基盤の取り替え、重量のある圧縮機の交換や、冷媒ガス漏れ補修作業と、故障に応じて多種多様の作業を行っております。</p>
+  <p>JFE構内の電気室・事務所など様々な場所に設置しているためエアコンの室内機、室外機の設置、冷媒配管や配線の敷設工事、溶接を伴った工事もあり、弊社にて施行させて頂いております。</p>
+ <img src="https://raw.githubusercontent.com/tokupachi/test/master/acc.png">
+  </div>
+  <div class="plant">
+    <h2>JFE様構内での各種汲取り清掃</h2>
+<p>バキューム車を当社にて保有しており、産業廃棄物の収集運搬、トイレ等の汚水汲取り、配管内に詰まった汚物の吸引等も可能です。JFE様では主に粉塵や原料の汲取を行わせて頂いており、（JFE様の広大な構内を当社にて担当させて頂いています。）吸引用のホースは直径12㎝、長さ20ｍ程度でそのホースを使用していることからも、強力な設備を保有しています。</p>
+    <img src="https://raw.githubusercontent.com/tokupachi/test/master/bcc.png">
+　</div>
+ </div>
 
 
-@media (max-width:670px) {
-
+</div>    
+     
     
     
- .lesson{width:100%;
-     margin-bottom:50px;}
-.footer-left{margin:auto;
-           width:100%; 
-    }
 
-    .singup{text-align: center;}
-  
-  .top-wrapper h1{font-size:24px;}
-   .top-wrapper p{font-size:14px;}
-    .sumaho{display:block;}
-    .header-right{display:none;}
-    footer img { width:100%; }
-   .top-wrapper { width:100%;
 
-.lesson-icon img{width:100%}
-        }
-    }
+
+    <footer>
+      <div class="container">
+<div class="footer-left">
+ <p><a href="http://www.fukuyama.or.jp/"><img src="https://raw.githubusercontent.com/tokupachi/test/master/fcci.gif"  border="0"></a></p>
+</div>
+          
+<div class="footer-right">
+  <p><a href="http://www.fukuyama.or.jp/yeg/"><img src="https://raw.githubusercontent.com/tokupachi/test/master/yeg.gif"  border="0"></a></p>
+</div>
+     </div>
+    </footer>
+  </body>
+</html>
