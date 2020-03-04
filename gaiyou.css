@@ -31,11 +31,15 @@ header {
   z-index: 10;
 }
 
+
 .logo {
   width: 300px;
-  margin-top: 15px;
-  margin-left:25Px;
+  margin-top: 5px;
+  margin-left:10Px;
 }
+
+
+
 .header-left {
   float: left;
 }
